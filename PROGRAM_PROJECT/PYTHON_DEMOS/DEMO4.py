@@ -1,0 +1,21 @@
+#STRING METHODS
+NAME= "HELLO BRO LESGOOOO"
+RES=len(NAME)
+#RES=NAME.find("O")
+#RES=NAME.rfind("L")
+#RES=NAME.capitalize()
+#RES=NAME.upper()
+#RES=NAME.lower()
+#RES=NAME.isdigit()
+#RES=NAME.isalpha()
+print(NAME)
+print(RES)
+print(help(str))
+#INDEXING FOR STRINGS USING [] (INDEXING OPERATOR)
+PHONE_NUM="1234-4567-7890"
+print(PHONE_NUM)
+print(PHONE_NUM[5:9])
+print(PHONE_NUM[:5])
+print(PHONE_NUM[9:])
+print(PHONE_NUM[:])
+print(PHONE_NUM[::4])
